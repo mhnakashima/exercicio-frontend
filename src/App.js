@@ -1,18 +1,19 @@
 import React from "react";
 import "./App.scss";
-import Sidebar from "./components/main/sidebar/sidebar";
-import logo from "./logo.svg";
 import About from "./components/main/about/about";
 import Projects from "./components/main/projects/project";
 import Contact from "./components/main/sidebar/contact/contact";
+import Sidebar from "./components/main/sidebar/sidebar";
+import HeaderBar from "./components/headerBar/headerBar";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
+        <div className="headerContainer">
+          <HeaderBar />
+        </div>
+
         <div className="content">
           <div className="main">
             <About />
