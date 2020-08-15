@@ -3,6 +3,8 @@ import "./App.scss";
 import Sidebar from "./components/main/sidebar/sidebar";
 import logo from "./logo.svg";
 import About from "./components/main/about/about";
+import Projects from "./components/main/projects/project";
+import Contact from "./components/main/sidebar/contact/contact";
 
 class App extends React.Component {
   render() {
@@ -14,8 +16,10 @@ class App extends React.Component {
         <div className="content">
           <div className="main">
             <About />
+            <Projects />
           </div>
           <div className="sidebar">
+            <Contact />
             <Sidebar />
           </div>
         </div>
