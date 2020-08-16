@@ -7,10 +7,9 @@ import Skills from "./skills/skills";
 class Sidebar extends React.Component {
   render() {
     return (
-      <div className="header">
+      <div className="sidebar container">
         <Header />
         <Paragraph />
-
         <Skills />
         
         <a href='#'>More on Coderwall</a>

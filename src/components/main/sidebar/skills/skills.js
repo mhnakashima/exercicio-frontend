@@ -4,7 +4,7 @@ import Bar from "../../../common/bar/bar";
 class Skills extends React.Component {
   render() {
     return (
-      <div className="Skills">
+      <div className="Skills container">
         <Bar />
         <Bar />
         <Bar />

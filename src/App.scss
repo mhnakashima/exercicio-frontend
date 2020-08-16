@@ -1,5 +1,10 @@
-.App {
-  text-align: center;
+body{
+  background-color: #dddddd;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
 }
 
 .App-logo {
@@ -26,6 +31,13 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container{
+  margin: 15px;
+  padding: 20px;
+
+  background-color: #fff;
 }
 
 @keyframes App-logo-spin {

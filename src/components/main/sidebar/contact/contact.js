@@ -4,7 +4,7 @@ import Description from "../../../common/description/description";
 class Contact extends React.Component {
   render() {
     return (
-      <div className="contact">
+      <div className="contact container">
         <Description />
         <Description />
         <Description />
