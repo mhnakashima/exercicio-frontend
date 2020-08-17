@@ -2,7 +2,7 @@ import React from "react";
 
 class Pic extends React.Component {
   render() {
-    return <div className="Pic">img</div>;
+    return <img src={process.env.PUBLIC_URL + "/img/profile.png"} />;
   }
 }
 

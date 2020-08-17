@@ -1,11 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Description extends React.Component {
   render() {
     return (
       <div className="description">
-        <span>i</span>
-        <span>Text</span>
+        <FontAwesomeIcon className='description__icon' icon={this.props.value.icon} />
+        <span className='description__text'>{this.props.value.text}</span>
       </div>
     );
   }

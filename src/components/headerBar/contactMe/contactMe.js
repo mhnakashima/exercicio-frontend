@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "../../common/header/header";
-import Title from "../../common/title/title";
+import Button from "../../common/button/button";
 
 class ContactMe extends React.Component {
   render() {
     return (
     <div className="contactMe">
-      <button className='Button'>Contact Me</button>
+      <Button className='Button' value={{ icon: 'paper-plane', text: 'Contact Me', backgroundColor: '#57B952' }} />
     </div>
     );
   }

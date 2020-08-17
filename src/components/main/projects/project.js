@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../common/header/header";
 import Project from "./project/project";
 
 class Projects extends React.Component {

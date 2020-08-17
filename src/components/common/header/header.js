@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <h1>About ME</h1>
+        <h1>{this.props.value}</h1>
       </div>
     );
   }
