@@ -12,6 +12,9 @@ Execute `npm install` na raiz do projeto para instalar as dependências.
 
 Execute `npm start` para rodar o servidor local em http://localhost:3000.
 
+Para rodar o Json Server e o react scripts você pode usar
+`npm run dev`
+
 ## Tarefas
 
 1. Construir o html/css conforme o design proposto, localizado na pasta `design`. A página deve ser responsiva e se adaptar à largura da tela. O arquivo HTML já se encontra em `public/index.html`, mas atualmente vazio.
