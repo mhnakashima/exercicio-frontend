@@ -1,9 +1,11 @@
 import React from "react";
 
+import './title.scss';
+
 class Title extends React.Component {
   render() {
     return (
-      <span className="Title">
+      <span className="title">
           {this.props.title}
       </span>
     );

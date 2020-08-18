@@ -10,6 +10,8 @@ import {
 import Header from "../../common/header/header";
 import Title from "../../common/title/title";
 
+import "./info.scss";
+
 class Info extends React.Component {
   constructor() {
     super();
@@ -31,15 +33,25 @@ class Info extends React.Component {
               <a href="#" className="social__list__link">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
+            </li>
+            <li className="social__list__item">
               <a href="#" className="social__list__link">
                 <FontAwesomeIcon icon={faGooglePlus} />
               </a>
+            </li>
+            <li className="social__list__item">
               <a href="#" className="social__list__link">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
+            </li>
+
+            <li className="social__list__item">
               <a href="#" className="social__list__link">
                 <FontAwesomeIcon icon={faReddit} />
               </a>
+            </li>
+
+            <li className="social__list__item">
               <a href="#" className="social__list__link">
                 <FontAwesomeIcon icon={faYoutube} />
               </a>

@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./project/project";
+import Header from "../../common/header/header";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -31,15 +32,14 @@ class Projects extends React.Component {
     } else {
       return (
         <div className="projects container">
-          <ul>
-            {projects.map((item, index) => (
-              <Project
-                key={item.id + item.title}
-                value={item}
-                isFirstProject={index === 0 ? true : false}
-              />
-            ))}
-          </ul>
+          <Header value="Latest Projects" />
+          {projects.map((item, index) => (
+            <Project
+              key={item.id + item.title}
+              value={item}
+              isFirstProject={index === 0 ? true : false}
+            />
+          ))}
         </div>
       );
     }

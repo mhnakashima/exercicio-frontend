@@ -3,7 +3,7 @@ import React from "react";
 class Subtitle extends React.Component {
   render() {
     return (
-      <div className="Subtitle">
+      <div className="subtitle">
           {this.props.value}
       </div>
     );

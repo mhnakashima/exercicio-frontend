@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './description.scss';
 
 class Description extends React.Component {
   render() {

@@ -7,6 +7,14 @@ h1,h2,h3,h4,h5,h6{
   margin: 0;
 }
 
+a{
+  color: #69CA8E;
+}
+
+img{
+  max-width: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,8 +42,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .container{
-  margin: 15px;
-  padding: 20px;
+  margin: 20px;
+  padding: 30px;
 
   background-color: #fff;
 }
@@ -47,4 +55,28 @@ h1,h2,h3,h4,h5,h6{
   to {
     transform: rotate(360deg);
   }
+}
+
+.content{
+  display: grid;
+  
+  @media screen and (max-width: 768px){
+    grid-template-areas: 
+      "main"
+      "sidebar"
+    ;
+    grid-template-columns: 1fr;
+  }
+  @media screen and (min-width: 768px){
+    grid-template-areas: "main sidebar";
+    grid-template-columns: 8fr 4fr;
+  }
+}
+
+.main{
+  grid-area: main;
+}
+
+.sidebar{
+  grid-area: sidebar;
 }

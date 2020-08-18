@@ -1,6 +1,8 @@
 import React from "react";
 import Bar from "../../../common/bar/bar";
 
+import './skills.scss';
+
 class Skills extends React.Component {
   constructor() {
     super();
@@ -16,7 +18,7 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <div className="Skills">
+      <div className="skills">
         { this.state.skills.map((item) => {
             return <Bar key={item.id} value={item} />
           }
