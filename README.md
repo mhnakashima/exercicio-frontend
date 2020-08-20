@@ -48,3 +48,9 @@ Lembre-se de ir *comitando* suas alterações e fazendo *push* para seu reposit�
 - **Module bundler**: O código JS deve ser transpilado para ES5 e *empacotado* usando algum *module bundler* como **Webpack** (de preferência). 
 
 - **Dependências**: Todas as dependências usadas devem ser adicionadas ao `package.json`.
+
+**Melhorias**
+
+Ajustar o css.
+Usar o Redux.
+Criar casos de testes.
